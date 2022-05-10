@@ -173,4 +173,8 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="allUser" resultMap="BaseResultMap">
+    select *
+    from consumer
+  </select>
 </mapper>

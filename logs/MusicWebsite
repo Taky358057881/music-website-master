@@ -11,3 +11,16 @@
 2022-05-10 22:25:02 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
 2022-05-10 22:25:02 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
 2022-05-10 22:25:02 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+2022-05-10 22:49:48 INFO [com.example.yin.MusicServerApplication]: Starting MusicServerApplication using Java 11.0.6 on LAPTOP-245KL96M with PID 13512 (D:\项目\JAVA\music-server\target\classes started by 35805 in D:\项目\JAVA\music-server)
+2022-05-10 22:49:48 INFO [com.example.yin.MusicServerApplication]: No active profile set, falling back to 1 default profile: "default"
+2022-05-10 22:49:48 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10 22:49:48 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10 22:49:49 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2022-05-10 22:49:49 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 966 ms
+2022-05-10 22:49:50 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2022-05-10 22:49:50 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2022-05-10 22:49:50 INFO [com.example.yin.MusicServerApplication]: Started MusicServerApplication in 1.785 seconds (JVM running for 2.616)
+2022-05-10 22:50:02 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2022-05-10 22:50:02 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2022-05-10 22:50:02 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2022-05-10 22:50:02 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
