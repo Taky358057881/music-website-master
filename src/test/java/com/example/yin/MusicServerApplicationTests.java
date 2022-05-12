@@ -18,21 +18,26 @@ class MusicServerApplicationTests {
     @Autowired
     private ConsumerServiceImpl consumerService;
 
-    @Test
-    void contextLoads() {
-        Consumer consumer = new Consumer();
-        consumer.setUsername("Taky");
-        consumer.setPassword("123");
-        consumer.setSex(new Byte("0"));
-        consumer.setPhoneNum("19966796664");
-        consumer.setEmail("358057881@qq.com");
-        consumer.setBirth(new Date());
-        consumer.setIntroduction("");
-        consumer.setLocation("");
-        consumer.setAvator("/img/avatorImages/user.jpg");
-        consumer.setCreateTime(new Date());
-        consumer.setUpdateTime(new Date());
-        consumerService.addUser(consumer);
-    }
+//    @Test
+//    void contextLoads() {
+//        Consumer consumer = new Consumer();
+//        consumer.setUsername("Taky");
+//        consumer.setPassword("123");
+//        consumer.setSex(new Byte("0"));
+//        consumer.setPhoneNum("19966796664");
+//        consumer.setEmail("358057881@qq.com");
+//        consumer.setBirth(new Date());
+//        consumer.setIntroduction("");
+//        consumer.setLocation("");
+//        consumer.setAvator("/img/avatorImages/user.jpg");
+//        consumer.setCreateTime(new Date());
+//        consumer.setUpdateTime(new Date());
+//        consumerService.addUser(consumer);
+//    }
+
+//    @Test
+//    public void consumerTest2(){
+//        System.out.println(consumerService.allUser());
+//    }
 
 }
