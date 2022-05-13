@@ -2,9 +2,11 @@ package com.example.yin.dao;
 
 import com.example.yin.domain.Collect;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface CollectMapper {
 
     int deleteByPrimaryKey(Integer id);

@@ -1,9 +1,11 @@
 package com.example.yin.dao;
 
 import com.example.yin.domain.Comment;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface CommentMapper {
 
     int deleteByPrimaryKey(Integer id);

@@ -1,9 +1,11 @@
 package com.example.yin.dao;
 
 import com.example.yin.domain.Consumer;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface ConsumerMapper {
     int deleteByPrimaryKey(Integer id);
 
