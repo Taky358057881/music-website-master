@@ -32,6 +32,16 @@
     from comment
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="commentOfSongId" resultMap="BaseResultMap">
+    select *
+    from comment
+    where song_id = #{songId, jdbcType=INTEGER}
+  </select>
+  <select id="commentOfSongListId" resultMap="BaseResultMap">
+    select *
+    from comment
+    where song_list_id = #{songListId, jdbcType=INTEGER}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     <!--
       WARNING - @mbggenerated
